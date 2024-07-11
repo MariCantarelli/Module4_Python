@@ -3,14 +3,14 @@
 #Realizam uma tarefa
 #Calcula e retorna um valor 
 
-def cliente1(nome):
-    print(f'Olá {nome}')
+def client1(name):
+    print(f'Hi {name}')
 
-def cliente2(nome):
-   return f'Olá {nome}'
+def client2(name):
+   return f'Hi {name}'
 
-x = cliente1('Maria')
-y = cliente2('Jose')
+x = client1('Maria')
+y = client2('Jose')
 
 print(x)
 #print(y)
