@@ -1,4 +1,4 @@
-#multiple arguments xargs with numbers 
+#Multiple arguments xargs with numbers 
 
 def sum(*numbers):
     result = 0 
