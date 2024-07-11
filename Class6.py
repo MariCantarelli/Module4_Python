@@ -1,10 +1,10 @@
 #multiple arguments xargs with numbers 
 
-def soma(*numbers):
-    resultado = 0 
+def sum(*numbers):
+    result = 0 
     for num in numbers:
-        resultado += num
-    return resultado
+        result += num
+    return result
 
-x = soma (2, 3, 4, 7)
+x = sum (2, 3, 4, 7)
 print(x)
