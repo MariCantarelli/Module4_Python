@@ -4,8 +4,8 @@
 # Default = aquele que você define o valor do parametro
 # Non - default = aquele que você não define o valor no parametro
 
-def boas_vindas(quantidade, nome = "Linda"): #default sempre deve vir depois do non-default
-    print(f'Olá {nome}.')
-    print(f'Temos {str(quantidade)} laptops em estoque. ')
+def welcome(quantity, name = "Linda"): #default must always come after non-default
+    print(f'Hello {name}.')
+    print(f'We have {str(quantity)} laptops in stock. ')
 
-boas_vindas(6) #Non-default 
+welcome(6) #Non-default
