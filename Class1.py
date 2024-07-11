@@ -1,18 +1,18 @@
-#How functions works 
+#How functions work 
 
 #Don't repeat yourself 
 
-def boas_vindas():
-    print("Olá Marcos!")
-    print("Temos 5 laptops em estoque")
+def welcome():
+    print("Hello Mark!")
+    print("We have 5 laptops in stock")
 
-boas_vindas()
+welcome()
 
-print("Olá nome")
-print("Olá nome")
-print("Olá nome")
-print("Olá nome")
-print("Olá nome")
-print("Olá nome")
+print("Hello name")
+print("Hello name")
+print("Hello name")
+print("Hello name")
+print("Hello name")
+print("Hello name")
 
-boas_vindas()
+welcome()
