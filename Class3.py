@@ -2,13 +2,13 @@
 
 #Parametro --> Argumento 
 
-def boas_vindas(nome, quantidade):
-    print(f'Olá {nome}.')
-    print(f'Temos {str(quantidade)} laptops em estoque. ')
+def welcome(name, quantity):
+    print(f'Hello {name}.')
+    print(f'We have {str(quantity)} laptops in stock. ')
 
-boas_vindas("Marcos", 5)
-boas_vindas("Ronaldo", 4)
-boas_vindas("Linda", 2)
+welcome("Marcos", 5)
+welcome("Ronaldo", 4)
+welcome("Linda", 2)
 
 '''def boas_vindas_Marcos():
     print("Olá Marcos!")
